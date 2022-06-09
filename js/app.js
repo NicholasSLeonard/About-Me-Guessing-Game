@@ -13,6 +13,7 @@ let userScore = 0;
 
 alert('For this quiz type yes (or y) or no (or n)');
 let myLocation = validateYN(prompt('I grew up on the canary Islands, right?'), 'I grew up on the canary Islands, right?');
+console.log('I grew up on the canary Islands, right?');
 if (myLocation === 'N' || myLocation === 'NO') {
   alert('Correct! I grew up on the Cayman Islands');
   //console.log('correct!');
@@ -24,6 +25,7 @@ else {
 }
   
 let myEducation = validateYN(prompt('I was in the British education system, right?'), 'I was in the British education system, right?');
+console.log('I was in the British education system, right?');
 if (myEducation === 'Y' || myEducation === 'YES') {
   alert('Correct! I was in the British education system');
   //console.log('correct!');
@@ -34,6 +36,7 @@ else {
   //console.log('incorrect!');
 }
 let myDegree = validateYN(prompt('I am working towards my Software Engineering degree, right?'), 'I am working towards my Software Engineering degree, right?');
+console.log('I am working towards my Software Engineering degree, right?');
 if (myDegree === 'Y' || myDegree === 'YES') {
   alert('Incorrect! I am working towards my computer science degree');
   //console.log('incorrect!');
@@ -45,6 +48,7 @@ else {
 }
   
 let myAlevels = validateYN(prompt('I took my A levels in college, right?'), 'I took my A levels in college, right?');
+console.log('I took my A levels in college, right?');
 if (myAlevels === 'Y' || myAlevels === 'YES') {
   alert('Incorrect! I took my A levels in high school.');
   //console.log('incorrect!');
@@ -56,6 +60,7 @@ else {
 }
   
 let mySport = validateYN(prompt('I played basketball, right?'), 'I played basketball, right?');
+console.log('I took my A levels in college, right?');
 if (mySport === 'N' || mySport === 'NO') {
   alert('Correct! I played tennis and baseball');
   //console.log('correct!');
@@ -71,6 +76,7 @@ let guess = 0;
 for(let i = 0; i < 4; i++)
 {
   guess = prompt('I am thinking of a number between 1 and 10...');
+  console.log('I am thinking of a number between 1 and 10...');
   if(guess > myNum)
   {
     alert('oops, too high');
@@ -96,6 +102,7 @@ let friendGames = ['call of duty', 'league of legends', 'overwatch', 'halo', 'ov
 for(let i = 0; i<6; i++)
 {
   guess = prompt('Guess a video game I play with my friends.');
+  console.log('Guess a video game I play with my friends.');
   for(let k = 0; k < 6 ; k++)
   {
     if(guess == friendGames[k])
