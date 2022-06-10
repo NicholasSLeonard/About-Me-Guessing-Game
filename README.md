@@ -1,1 +1,1 @@
-# About-Me-Guessing-Game
+Nicholas and Wendy worked About-Me-Guessing-Game together
