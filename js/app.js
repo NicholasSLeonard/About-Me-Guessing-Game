@@ -23,7 +23,7 @@ else {
   alert('Incorrect! I grew up on the Cayman Islands');
   //console.log('incorrect!');
 }
-  
+
 let myEducation = validateYN(prompt('I was in the British education system, right?'), 'I was in the British education system, right?');
 console.log('I was in the British education system, right?');
 if (myEducation === 'Y' || myEducation === 'YES') {
@@ -46,7 +46,7 @@ else {
   //console.log('correct!');
   userScore++;
 }
-  
+
 let myAlevels = validateYN(prompt('I took my A levels in college, right?'), 'I took my A levels in college, right?');
 console.log('I took my A levels in college, right?');
 if (myAlevels === 'Y' || myAlevels === 'YES') {
@@ -58,7 +58,7 @@ else {
   //console.log('correct!');
   userScore++;
 }
-  
+
 let mySport = validateYN(prompt('I played basketball, right?'), 'I played basketball, right?');
 console.log('I took my A levels in college, right?');
 if (mySport === 'N' || mySport === 'NO') {
