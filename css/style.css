@@ -1,16 +1,52 @@
+#header
+{
+    text-align: center;
+    color:darkblue;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
 body{
     background-color:lightcyan;
 }
-h1 {
+h1, h2 {
     color:darkblue;
     background-color:mediumturquoise;
     text-align: center;
+    border-radius: 5px;
     padding: 5px;
+    border-color: black;
+    border-style: solid;
+    position: relative;
 
 }
-p{
+#Lists
+{
     text-align: center;
     color:darkblue;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+#about-me
+{
+    color:darkblue;
+    background-color:mediumturquoise;
+    text-align: center;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+ol li{
+    border-radius: 20px;
+    background-color: rgb(127, 224, 221);
+    margin-top: 5px;
+}
+ul li{
+    border-radius: 20px;
+    background-color: rgb(127, 224, 221);
+    margin-top: 5px;
 }
